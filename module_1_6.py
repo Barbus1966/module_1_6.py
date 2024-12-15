@@ -1,0 +1,16 @@
+my_dict = {'Дважды два': 4, 'Трижды три': 9, 'Пятью пять': 25}
+print(my_dict)
+print("Дважды два:",my_dict['Дважды два'])
+print(my_dict.get('Шестью шесть: ', "Шестью шесть: неизвесно"))
+my_dict.update({'Шестью шесть': 36,'Семью семь': 49})
+print("Значение удалённого ключа:",my_dict.pop('Трижды три'))
+print(my_dict)
+print()
+print()
+my_set = {3.14, 'Home', 66, 66, 99, 99}
+print("Дано: ", my_set)
+cortege = (100, 'Work')
+my_set.add('Python')
+my_set.add(cortege)
+my_set.discard(66)
+print("Новое множество: ", my_set)
